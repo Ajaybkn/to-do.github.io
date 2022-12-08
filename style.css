@@ -1,0 +1,109 @@
+/* aligning body to the centre and giving the required params */
+body {
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+/* heading */
+#todo {
+  margin-left: 520px;
+  font-size: 50px;
+  color: floralwhite;
+  text-decoration: underline;
+}
+/* count area */
+span {
+  margin-left: 78px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.countCompleted {
+  padding: 18px;
+  margin-left: 175px;
+}
+/* main div of app and its properties */
+#main_div {
+  margin-top: 28px;
+  margin-left: 270px;
+  border: 5px solid gold;
+  border-radius: 10px;
+  height: 300px;
+  width: 700px;
+  background-color: rgb(222, 207, 207);
+  overflow-y: scroll;
+}
+#form_div {
+  background-color: wheat;
+  border-radius: 5px;
+
+  border: 2px solid red;
+  cursor: pointer;
+  height: 30px;
+}
+/* input area where user fill the data */
+input {
+  border: 3px solid red;
+  font-size: larger;
+  margin-left: 138px;
+  margin-top: 13px;
+  border-radius: 5px;
+  width: 415px;
+  height: 32px;
+}
+
+/* seperation lines */
+.horizontal-line {
+  width: 100%;
+  height: 3px;
+  background-color: blue;
+}
+
+#form_data {
+  display: flex;
+  justify-content: center;
+
+  width: 90%;
+  height: 30px;
+}
+/* add button */
+#add_button {
+  margin-top: 40px;
+  margin-left: 250px;
+}
+/* submit button */
+#submit_button {
+  border: 2px solid black;
+  margin-left: 38px;
+}
+/* changing state of submit button on hover */
+#submit_button:hover {
+  background-color: rgb(111, 199, 111);
+  transform: scale(1.5);
+}
+
+#list_Items_div {
+  margin-top: 50px;
+}
+/* buttons added by the javascript */
+.js_button {
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.js_button:hover {
+  background-color: red;
+  transform: scale(1.2);
+}
+.empty {
+  font-size: larger;
+  text-decoration: line-through;
+}
+.buttonCompleted:hover {
+  background-color: lightgoldenrodyellow;
+  transform: scale(1.2);
+}
+
+.list_items {
+  font-size: larger;
+  font-weight: bold;
+}
